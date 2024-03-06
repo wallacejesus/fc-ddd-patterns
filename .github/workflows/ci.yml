@@ -1,7 +1,8 @@
 name: ci-fc-challenge
 on: 
   pull-request:
-    - main
+    branchs:
+      - main
 jobs:
   check-status:
     runs-on: ubuntu-latest
