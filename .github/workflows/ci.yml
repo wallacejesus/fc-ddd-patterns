@@ -1,6 +1,6 @@
 name: ci-fc-challenge
 on: 
-  pull-request:
+  pull_request:
     branchs:
       - main
 jobs:
